@@ -20,12 +20,14 @@
 		<Item Name="curve fit.vi" Type="VI" URL="../curve fit.vi"/>
 		<Item Name="data between cursors.vi" Type="VI" URL="../data between cursors.vi"/>
 		<Item Name="day to time.vi" Type="VI" URL="../day to time.vi"/>
+		<Item Name="download file.vi" Type="VI" URL="../download file.vi"/>
 		<Item Name="get aggregate names.vi" Type="VI" URL="../get aggregate names.vi"/>
 		<Item Name="get all US data.vi" Type="VI" URL="../get all US data.vi"/>
 		<Item Name="get countries in aggregate.vi" Type="VI" URL="../get countries in aggregate.vi"/>
 		<Item Name="get preset name.vi" Type="VI" URL="../get preset name.vi"/>
 		<Item Name="get preset2 name.vi" Type="VI" URL="../get preset2 name.vi"/>
 		<Item Name="get SA province data.vi" Type="VI" URL="../get SA province data.vi"/>
+		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="linear fit.vi" Type="VI" URL="../linear fit.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="main_menu.rtm" Type="Document" URL="../main_menu.rtm"/>
@@ -150,7 +152,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8454BCDA-DF58-4420-B39E-278B2ED1932E}</Property>
-				<Property Name="Bld_version.major" Type="Int">31</Property>
+				<Property Name="Bld_version.major" Type="Int">32</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Corona.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app</Property>
@@ -159,7 +161,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app/Support</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9124A34E-A557-450A-BAE0-B959B9ED838F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4AF85E5-1B02-4DE0-8EF9-B9FE2B75D511}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
