@@ -34,6 +34,7 @@
 		<Item Name="main_menu.rtm" Type="Document" URL="../main_menu.rtm"/>
 		<Item Name="moving average.vi" Type="VI" URL="../moving average.vi"/>
 		<Item Name="new aggregate dialog.vi" Type="VI" URL="../new aggregate dialog.vi"/>
+		<Item Name="new records.vi" Type="VI" URL="../new records.vi"/>
 		<Item Name="normalise Y.vi" Type="VI" URL="../normalise Y.vi"/>
 		<Item Name="one plot adjustable to another.vi" Type="VI" URL="../one plot adjustable to another.vi"/>
 		<Item Name="parse CSV files.vi" Type="VI" URL="../parse CSV files.vi"/>
