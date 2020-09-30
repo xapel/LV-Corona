@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="aggregate weekly.vi" Type="VI" URL="../aggregate weekly.vi"/>
 		<Item Name="animated ranked results.vi" Type="VI" URL="../animated ranked results.vi"/>
+		<Item Name="average last x days data.vi" Type="VI" URL="../average last x days data.vi"/>
 		<Item Name="Bar chart.vi" Type="VI" URL="../Bar chart.vi"/>
 		<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 		<Item Name="compare multiple countries window.vi" Type="VI" URL="../compare multiple countries window.vi"/>
@@ -155,7 +156,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8454BCDA-DF58-4420-B39E-278B2ED1932E}</Property>
-				<Property Name="Bld_version.major" Type="Int">34</Property>
+				<Property Name="Bld_version.major" Type="Int">35</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Corona.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app</Property>
@@ -164,7 +165,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app/Support</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{80BFE0EA-6E20-459C-9A37-E03272DD2984}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A02AA8E1-FA7D-49A4-BF90-B92A20AD9C94}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
