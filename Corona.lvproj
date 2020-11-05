@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,45 +11,51 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="aggregate weekly.vi" Type="VI" URL="../aggregate weekly.vi"/>
-		<Item Name="animated ranked results.vi" Type="VI" URL="../animated ranked results.vi"/>
-		<Item Name="average last x days data.vi" Type="VI" URL="../average last x days data.vi"/>
-		<Item Name="Bar chart.vi" Type="VI" URL="../Bar chart.vi"/>
-		<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-		<Item Name="compare multiple countries window.vi" Type="VI" URL="../compare multiple countries window.vi"/>
-		<Item Name="compare top countries window.vi" Type="VI" URL="../compare top countries window.vi"/>
-		<Item Name="create aggregate stats.vi" Type="VI" URL="../create aggregate stats.vi"/>
-		<Item Name="create population index.vi" Type="VI" URL="../create population index.vi"/>
-		<Item Name="curve fit.vi" Type="VI" URL="../curve fit.vi"/>
-		<Item Name="data between cursors.vi" Type="VI" URL="../data between cursors.vi"/>
-		<Item Name="day to time.vi" Type="VI" URL="../day to time.vi"/>
-		<Item Name="download file.vi" Type="VI" URL="../download file.vi"/>
-		<Item Name="get aggregate names.vi" Type="VI" URL="../get aggregate names.vi"/>
-		<Item Name="get all US data.vi" Type="VI" URL="../get all US data.vi"/>
-		<Item Name="get countries in aggregate.vi" Type="VI" URL="../get countries in aggregate.vi"/>
-		<Item Name="get preset name.vi" Type="VI" URL="../get preset name.vi"/>
-		<Item Name="get preset2 name.vi" Type="VI" URL="../get preset2 name.vi"/>
-		<Item Name="get SA province data.vi" Type="VI" URL="../get SA province data.vi"/>
+		<Item Name="SUBVIs" Type="Folder">
+			<Item Name="aggregate weekly.vi" Type="VI" URL="../aggregate weekly.vi"/>
+			<Item Name="animated ranked results.vi" Type="VI" URL="../animated ranked results.vi"/>
+			<Item Name="average last x days data.vi" Type="VI" URL="../average last x days data.vi"/>
+			<Item Name="Bar chart.vi" Type="VI" URL="../Bar chart.vi"/>
+			<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+			<Item Name="compare multiple countries window.vi" Type="VI" URL="../compare multiple countries window.vi"/>
+			<Item Name="compare top countries window.vi" Type="VI" URL="../compare top countries window.vi"/>
+			<Item Name="create aggregate stats.vi" Type="VI" URL="../create aggregate stats.vi"/>
+			<Item Name="create population index.vi" Type="VI" URL="../create population index.vi"/>
+			<Item Name="curve fit.vi" Type="VI" URL="../curve fit.vi"/>
+			<Item Name="data between cursors.vi" Type="VI" URL="../data between cursors.vi"/>
+			<Item Name="day to time.vi" Type="VI" URL="../day to time.vi"/>
+			<Item Name="download file.vi" Type="VI" URL="../download file.vi"/>
+			<Item Name="get aggregate names.vi" Type="VI" URL="../get aggregate names.vi"/>
+			<Item Name="get all US data.vi" Type="VI" URL="../get all US data.vi"/>
+			<Item Name="get countries in aggregate.vi" Type="VI" URL="../get countries in aggregate.vi"/>
+			<Item Name="get preset name.vi" Type="VI" URL="../get preset name.vi"/>
+			<Item Name="get preset2 name.vi" Type="VI" URL="../get preset2 name.vi"/>
+			<Item Name="get SA province data.vi" Type="VI" URL="../get SA province data.vi"/>
+			<Item Name="linear fit.vi" Type="VI" URL="../linear fit.vi"/>
+			<Item Name="moving average.vi" Type="VI" URL="../moving average.vi"/>
+			<Item Name="new aggregate dialog.vi" Type="VI" URL="../new aggregate dialog.vi"/>
+			<Item Name="new records.vi" Type="VI" URL="../new records.vi"/>
+			<Item Name="normalise Y.vi" Type="VI" URL="../normalise Y.vi"/>
+			<Item Name="one plot adjustable to another.vi" Type="VI" URL="../one plot adjustable to another.vi"/>
+			<Item Name="parse CSV files.vi" Type="VI" URL="../parse CSV files.vi"/>
+			<Item Name="parse US data.vi" Type="VI" URL="../parse US data.vi"/>
+			<Item Name="plot deaths and cases together.vi" Type="VI" URL="../plot deaths and cases together.vi"/>
+			<Item Name="polynomial fit.vi" Type="VI" URL="../polynomial fit.vi"/>
+			<Item Name="presets dialog.vi" Type="VI" URL="../presets dialog.vi"/>
+			<Item Name="presets2 dialog.vi" Type="VI" URL="../presets2 dialog.vi"/>
+			<Item Name="sorted by gradient of fitted straight line.vi" Type="VI" URL="../sorted by gradient of fitted straight line.vi"/>
+			<Item Name="sorted data from csv.vi" Type="VI" URL="../sorted data from csv.vi"/>
+			<Item Name="time to day.vi" Type="VI" URL="../time to day.vi"/>
+			<Item Name="US deaths data.vi" Type="VI" URL="../US deaths data.vi"/>
+			<Item Name="weekly graph.vi" Type="VI" URL="../weekly graph.vi"/>
+		</Item>
+		<Item Name="Menus" Type="Folder">
+			<Item Name="main_menu.rtm" Type="Document" URL="../main_menu.rtm"/>
+			<Item Name="List clipboard menu.rtm" Type="Document" URL="../List clipboard menu.rtm"/>
+			<Item Name="Compare menu.rtm" Type="Document" URL="../Compare menu.rtm"/>
+		</Item>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
-		<Item Name="linear fit.vi" Type="VI" URL="../linear fit.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="main_menu.rtm" Type="Document" URL="../main_menu.rtm"/>
-		<Item Name="moving average.vi" Type="VI" URL="../moving average.vi"/>
-		<Item Name="new aggregate dialog.vi" Type="VI" URL="../new aggregate dialog.vi"/>
-		<Item Name="new records.vi" Type="VI" URL="../new records.vi"/>
-		<Item Name="normalise Y.vi" Type="VI" URL="../normalise Y.vi"/>
-		<Item Name="one plot adjustable to another.vi" Type="VI" URL="../one plot adjustable to another.vi"/>
-		<Item Name="parse CSV files.vi" Type="VI" URL="../parse CSV files.vi"/>
-		<Item Name="parse US data.vi" Type="VI" URL="../parse US data.vi"/>
-		<Item Name="plot deaths and cases together.vi" Type="VI" URL="../plot deaths and cases together.vi"/>
-		<Item Name="polynomial fit.vi" Type="VI" URL="../polynomial fit.vi"/>
-		<Item Name="presets dialog.vi" Type="VI" URL="../presets dialog.vi"/>
-		<Item Name="presets2 dialog.vi" Type="VI" URL="../presets2 dialog.vi"/>
-		<Item Name="sorted by gradient of fitted straight line.vi" Type="VI" URL="../sorted by gradient of fitted straight line.vi"/>
-		<Item Name="sorted data from csv.vi" Type="VI" URL="../sorted data from csv.vi"/>
-		<Item Name="time to day.vi" Type="VI" URL="../time to day.vi"/>
-		<Item Name="US deaths data.vi" Type="VI" URL="../US deaths data.vi"/>
-		<Item Name="weekly graph.vi" Type="VI" URL="../weekly graph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -156,7 +163,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8454BCDA-DF58-4420-B39E-278B2ED1932E}</Property>
-				<Property Name="Bld_version.major" Type="Int">36</Property>
+				<Property Name="Bld_version.major" Type="Int">37</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Corona.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app</Property>
@@ -165,14 +172,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app/Support</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EA0B9E87-B070-4D26-B2AC-CD1621F4B35D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4083ACFE-793C-4DB2-AC37-4D1CDC69FD95}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Check if File or Folder Exists.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SUBVIs/Check if File or Folder Exists.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="TgtF_companyName" Type="Str">Silixa</Property>
