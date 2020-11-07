@@ -163,7 +163,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8454BCDA-DF58-4420-B39E-278B2ED1932E}</Property>
-				<Property Name="Bld_version.major" Type="Int">37</Property>
+				<Property Name="Bld_version.major" Type="Int">38</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Corona.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app</Property>
@@ -172,7 +172,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app/Support</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4083ACFE-793C-4DB2-AC37-4D1CDC69FD95}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57E15200-FE99-48F3-936A-3190ECDA30FC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
