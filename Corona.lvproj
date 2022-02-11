@@ -57,6 +57,7 @@
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="get country index from config.vi" Type="VI" URL="../get country index from config.vi"/>
+		<Item Name="infection fatality rate.vi" Type="VI" URL="../infection fatality rate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -166,7 +167,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8454BCDA-DF58-4420-B39E-278B2ED1932E}</Property>
-				<Property Name="Bld_version.major" Type="Int">46</Property>
+				<Property Name="Bld_version.major" Type="Int">47</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Corona.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app</Property>
@@ -175,7 +176,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Corona exe/Corona.app/Contents/Resources</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6C5C1D71-FA8E-4F0D-8AC4-FC861652749A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D57F9724-E27D-4779-9023-E6EDB84B6DEC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
